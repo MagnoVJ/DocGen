@@ -1,0 +1,42 @@
+﻿<Window x:Class="DocGen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DocGen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10, 10, 10, 10">
+                <Label Content="Nome: " />
+                <TextBox Name="txtb_nome" Width="200" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10, 10, 10, 10">
+                <Label Content="CPF: " />
+                <TextBox Width="200" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10, 10, 10, 10">
+                <Label Content="RG: " />
+                <TextBox Width="200" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10, 20, 10, 10">
+                <Label Content="Modelo Aparelho: " />
+                <TextBox Width="200" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10, 10, 10, 10">
+                <Label Content="Número de Série: " />
+                <TextBox Width="200" />
+            </StackPanel>
+
+            <Button Name="btn_gerar" Content="Gerar" Width="300" Margin="10, 30, 10, 10" Click="btn_gerar_Click"/>
+
+
+        </StackPanel>
+            
+        
+    </Grid>
+</Window>
